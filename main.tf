@@ -1,3 +1,5 @@
+provider "aws" {}
+
 data "aws_region" "current" {}
 
 resource "random_string" "stack_id" {
